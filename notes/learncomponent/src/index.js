@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+// import App from "./04_组件之间的通信过程/App.jsx";
 // import App from './01_类组件与函数式组件/App_class.jsx';
 // import App111 from './01_类组件与函数式组件/App_func.jsx';
-import App from "./02_组件的生命周期函数/App.jsx";
-import HelloWorld from "./02_组件的生命周期函数/Helloworld.jsx";
+// import App from "./02_组件的生命周期函数/App.jsx";
+// import HelloWorld from "./02_组件的生命周期函数/Helloworld.jsx";
+// import App from "./05_子组件传递到父组件/App.jsx";
+// import App from "./06_组件通信的案例/App";
+// import App from "./07_组件的插槽实现/App.jsx";
+import App from "./08_非父子通信-context/App.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render([<HelloWorld />, <App />]);
+root.render(<App />);

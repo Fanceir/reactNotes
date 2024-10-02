@@ -1,0 +1,19 @@
+.tab-control {
+    display: flex;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+.tab-control .item {
+    flex: 1;
+}
+
+.tab-control .item:hover {
+    color: #1890ff;
+    cursor: pointer;
+}
+.tab-control .item.active .text {
+    color: #1890ff;
+    padding: 3px;
+    border-bottom: 3px solid #1890ff;
+}
